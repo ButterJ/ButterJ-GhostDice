@@ -1,0 +1,21 @@
+{
+  "name": "GhostDice",
+  "namespace": "ButterJ",
+  "version_number": "1.0.0",
+  "description": "Adds Ghost Dice as a new ethereal weapon.",
+  "website_url": "https://github.com/example/repo",
+  "dependencies": ["Darkly77-ContentLoader"],
+  "extra": {
+    "godot": {
+      "authors": [ "ButterJ" ],
+      "tags": [],
+      "description_rich": "",
+      "optional_dependencies": [],
+      "load_before": [],
+      "incompatibilities": [],
+      "compatible_mod_loader_version": [ "6.2.0" ],
+      "compatible_game_version": [ "1.2.3" ],
+      "config_schema": {}
+    }
+  }
+}
