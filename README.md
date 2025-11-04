@@ -1,6 +1,8 @@
 This mod adds Ghost Dice as a new weapon to the game.
 Ghost Dice randomly give +1-2 luck for every 20/18/16/12 enemies killed with it during a wave.
 
+The steam workshop page for the mod is: https://steamcommunity.com/sharedfiles/filedetails/?id=3598637191
+
 The ghost dice are designed to fit well into the already established ethereal weapons. It adds an alternative ranged ethereal weapon, having faster attack speed but less damage than the ghost scepter.
 Differently than the Ghost Scepter, the Ghost Dice are able to kill 20 enemies in the first wave. After killing 20/18/16/12 enemies with the Ghost Dice, they randomly give +1-2 luck.
 
