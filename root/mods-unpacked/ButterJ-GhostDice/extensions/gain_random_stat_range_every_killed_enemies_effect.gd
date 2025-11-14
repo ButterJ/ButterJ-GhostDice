@@ -10,10 +10,22 @@ extends GainStatEveryKilledEnemiesEffect
 static func get_id() -> String:
 	return "weapon_gain_random_stat_range_every_killed_enemies"
 
+
 func get_args(_player_index: int) -> Array:
-	#var stat_nb_text : String = str(minimum_stat_nb) + "-" + str(maximum_stat_nb)
+	var args
+	
+	if custom_key == "gain_random_amount_of_stat":
+		args = get_args_random(_player_index)
+	else:
+		args = .get_args(_player_index)
+		
+	return args
+
+
+func get_args_random(_player_index: int) -> Array:
 	var stat_nb_text : String = "1-2"
 	return [stat_nb_text, tr(stat.to_upper()), str(value)]
+
 
 func serialize() -> Dictionary:
 	var serialized = .serialize()
@@ -38,5 +50,5 @@ func get_randomized_stat() -> int:
 	rng.randomize()
 	#var random_stat_value : int = rng.randi_range(minimum_stat_nb, maximum_stat_nb)
 	var random_stat_value : int = rng.randi_range(1, 2)
-	
+
 	return random_stat_value

@@ -5,7 +5,7 @@ extends Weapon
 ## Instead the effects will be handled by this class and added back after
 func on_killed_something(_thing_killed: Node, hitbox: Hitbox) -> void :
 	var effects_replacing_vanilla : Array = _get_effects_replacing_vanilla_effects()
-	
+
 	_remove_effects_replacing_vanilla(effects_replacing_vanilla)
 	
 	.on_killed_something(_thing_killed, hitbox)

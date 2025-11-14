@@ -13,6 +13,7 @@ func _init():
 
 func _install_script_extensions():
 	ModLoaderMod.install_script_extension(EXTENSION_DIRECTORY + "gain_random_stat_range_every_killed_enemies_effect.gd")
+	ModLoaderMod.install_script_extension(EXTENSION_DIRECTORY + "weapon_ghost_dice_extension.gd")
 	ModLoaderMod.install_script_extension(EXTENSION_DIRECTORY + "process_data_extension.gd")
 
 func _ready():
